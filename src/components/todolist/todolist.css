@@ -1,0 +1,59 @@
+.ToDoList {
+    text-align: center;
+    font-family: "ToDo List", sans-serif;
+    margin: 25rem;
+    padding: 150px;
+    background-color: rgb(39, 236, 171);
+    border: rgb(160, 231, 160);
+    box-shadow: 0 0 20px rgb(42, 230, 42);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    background-color: rgb(119, 222, 230);
+    border-radius: 5px;
+}
+
+li.complete {
+    text-decoration: line-through;
+    color : pink ;
+}
+
+span {
+    cursor: pointer;
+}
+
+button {
+    background-color: antiquewhite;
+    color: black;
+    border: none;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: rosybrown;
+}
